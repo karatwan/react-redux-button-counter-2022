@@ -124,7 +124,7 @@ const buttonCount = (count = 0, action) => {
 
 export default buttonCount;
 ```
-- updates buttonCount accordingly whenever an action.type is triggered
+- updates buttonCount accordingly whenever an action.type is triggered (Note: count is updated automatically according to the returned value)
 
 
 
